@@ -1,0 +1,88 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.container-fluid
+{
+    height: 100vh;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+
+
+.row
+{
+    height: 100vh;
+}
+
+.form_container
+{
+    max-width: 75%;
+    margin: auto;
+    height: 100vh;
+    margin-top: 15%;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    flex-direction: column;
+}
+
+.right-side {
+    background-color: rgb(255, 234, 219);
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    height: 100%; /* Ensure the div takes full height */
+    text-align: center; /* Center text */
+}
+
+
+
+/* right side all text that is written*/
+.text_area
+{
+    max-width: 75%;
+    margin: 0 auto;
+    text-align: start;
+}
+
+.text_area h1
+{
+    font-size: 50px;
+}
+
+
+.left-side,
+.right-side {
+    box-sizing: border-box;
+    max-width: fit-content;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+
+.left-side p {
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+    font-size: large;
+}
+
+
+.form-select
+{
+    max-width: 160px;
+}
+
+.submit-to-google-sheet
+{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
